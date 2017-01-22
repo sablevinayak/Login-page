@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Arsenal|Roboto');
+
+
+body{
+	padding-top: 60px;
+	background-color: #298eea;
+}
+
+*{
+	box-sizing: border-box;
+
+}
+
+.logo{
+	display: block;
+	width: auto;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form{
+	display: block;
+	width: auto;
+	background-color: white;
+	margin-top: 15px;
+	padding: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;	
+}
+
+form legend{
+	font-size: 30px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: #555554;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+input[type="email"],input[type="password"]{
+	font-family: 'Arsenal', sans-serif;
+	margin: 10px;
+	padding: 10px;
+	border:1px solid grey;
+	border-radius: 3px;
+	font-size: 15px;
+	height: 50px;
+	color: grey;
+	width: 320px;
+	background-color: transparent;
+}
+
+.singup{
+	display: block;
+	margin: 10px;
+	background-color: #7BE533;
+	height: 55px;
+	border:2px solid;
+	font-family: 'Roboto', sans-serif;
+	width: 320px;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: center;
+}
+
+.singup:hover{
+	background-color: #5FA407;
+}
+
+p{
+	margin: 0px;
+}
+
+.forgot_password a{
+	color: grey;
+	margin-left: 100px;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.login{
+	padding: 10px;
+	text-align: center;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
